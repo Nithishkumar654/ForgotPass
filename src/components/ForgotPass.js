@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 function ForgotPass() {
   
-  let {register,handleSubmit,formState:{errors}} = useForm();
+  let {register,handleSubmit} = useForm();
   let [err, setErr] = useState("")
   let navigate = useNavigate()
 
